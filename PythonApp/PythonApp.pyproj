@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ClassIterationFor.py" />
+    <Compile Include="functions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mods.py">
       <SubType>Code</SubType>
     </Compile>
