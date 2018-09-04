@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>007fd0f4-3971-495f-9bc1-64994119efc5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ClassIterationFor.py</StartupFile>
+    <StartupFile>ModuleTest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ClassIterationFor.py" />
+    <Compile Include="mods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ModuleTest.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
