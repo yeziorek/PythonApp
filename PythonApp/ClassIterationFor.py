@@ -10,9 +10,3 @@ class MyNumbers:
       return x
     else:
       raise StopIteration
-
-myclass = MyNumbers()
-myiter = iter(myclass)
-
-for x in myiter:
-  print(x)
